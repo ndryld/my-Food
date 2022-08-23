@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+ul{
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 1600px;
+    margin: auto;
+    position: relative;
+    text-decoration: none;
+}
+
+ul li{
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    font-size: 40px ;
+    padding: 60px;
+    
+
+}
+img{
+    width: 50px;
+    position: absolute;
+    left: 30px;
+}
+
+/* .baslik{
+    
+} */
+
+.mail{
+    position: absolute;
+    right: 30px;
+    margin-top: 10px;
+    
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 0px;
+}
+.part{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+.partbaslik{
+    margin-top: 300px;
+}
+.partimg{
+    width: 295px;
+    height: 250px;
+    margin-left: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
