@@ -1,13 +1,20 @@
 *{
     box-sizing: border-box;
+    
+}
+
+body{
+    position: relative;
 }
 
 
 .My_Food{
+
     width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 100px 100px;
+    
 }
 ul{
     text-align: center;
@@ -91,4 +98,76 @@ main{
     gap: 0px 2px;
 }
 
+.footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 2px 2px;
+    height: 20px;
 
+}
+
+.okl{
+    width: 20px;
+}
+
+.footer .footerul li{
+    width: 10px;
+    height: 10px;
+    /* border: 1px solid red; */
+}
+
+.footer .footerul :hover{
+    background-color: rgb(63, 67, 69);
+}
+
+.bir{
+background-color: aliceblue;
+
+}
+
+.container{
+    width: 1500px;
+    height: 1200px;
+    padding: 100px;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+}
+.about{
+    width: 800px;
+    height: 500px;
+}
+
+.aa{
+    /* border: 1px solid black; */
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 400px;
+    font-size: 20px;
+
+}
+
+.footerdv{
+    /* border: 1px solid red; */
+    width: 500px;
+    padding-left: 10px;
+
+}
+
+.blog{
+    /* border: 1px solid red; */
+    width: 200px;
+    display: flex;
+    gap: 0px 5px;
+}
+.blogimg{
+    width: 50px;
+}
+
+.blog :hover{
+    background-color: rgb(144, 150, 154);
+}
